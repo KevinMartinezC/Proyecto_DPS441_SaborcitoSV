@@ -1,7 +1,7 @@
 import * as React from 'react';
 import {NavigationContainer} from "@react-navigation/native";
-import {createBottomTabNavigator} from "@react-navigation/bottom-tabs"
-import {Icon} from "react-native-elements"
+import {createBottomTabNavigator} from "@react-navigation/bottom-tabs";
+import {Icon} from "react-native-elements";
 import RestaurantStack from "./RestaurantStack";
 import FavoriteStack from "./FavoriteStack";
 import AccountStack from "./AccountStack";
