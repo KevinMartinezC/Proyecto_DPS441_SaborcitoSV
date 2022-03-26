@@ -30,10 +30,12 @@
     "react-native-elements": "*",
     "react-native-easy-toast": "*",
     "@react-navigation/native": "6.0.0",
+    "react-native-snap-carousel": "*",
     "@react-navigation/bottom-tabs": "*",
     "@react-navigation/native-stack": "*",
     "react-native-safe-area-context": "3.2.0",
-    "react-native-keyboard-aware-scroll-view": "*"
+    "react-native-keyboard-aware-scroll-view": "*",
+    "react-native-open-maps": "*"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0"
