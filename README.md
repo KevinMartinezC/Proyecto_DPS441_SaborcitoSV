@@ -1,11 +1,32 @@
 # Sample Snack app
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo-cli](https://docs.expo.io/get-started/installation).
+## Herramientas
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
+* [Android Studio] https://developer.android.com/studio?hl=es-419&gclid=Cj0KCQjwppSEBhCGARIsANIs4p4EyyCZX7TunXEly893f1rdPBxQZQxE0e-v119AxRyg1cffFvvUY2EaAjJsEALw_wcB&gclsrc=aw.ds -Necesario para configurar un emulador de android para realizar pruebas.
+* [Firebase] https://firebase.google.com/ - Para el almacenamiento de datos.
+* [Trello] https://trello.com/es - Planificación de las actividades del equipo de desarrollo.
+* [Git hub] https://github.com/ - Control de versiones del software.
+* [Draw.io] https://app.diagrams.net/ - Herramienta para creación de UML.
+* [Framer] https://www.framer.com - Herramienta para creación de mockups.
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.io/c/snack).
+## Miembros del equipo de desarrollo DSA441 -Proyecto SubiteSV
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+* **Patrick Ernesto Rosales Mendoza**
+* **Kevin Adonay Martínez Cerón** 
+* **Stanley Adonay Mejia Amaya** 
+
+
+
+## Licencia
+
+Este proyecto está bajo la licencia Creative Commons Zero v1.0 Universal
+Que establece:
+Usted puede copiar, modificar, distribuir y realizar el trabajo, incluso con fines comerciales, todo sin pedir permiso.
+
+
+## Enlaces de interés
+
+* [Tablero en Trello] https://trello.com/b/gEmv05px/proyecto-de-catedra-dsa441-fase-1
+* [Diseño Mock-ups] https://framer.com/projects/DSA-Android--xvJDeZ3woqKuo6nqXjwy-4YJJ5 **NOTA -- Para acceder a ver las pantallas se necesita registrarse.
+
