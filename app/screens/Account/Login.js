@@ -21,7 +21,6 @@ export default function Login(){
         <CreateAccount/>
       </View>
       <Divider style={styles.divider}/>
-      <Text>Social Login</Text>
       <Toast ref={toastRef} position="center" opacity={0.9}/>
     </ScrollView>
   );
@@ -38,8 +37,10 @@ function CreateAccount(){
         Registrate
       </Text>
     </Text>
-  )
+  );
 }
+
+
 
 const styles = StyleSheet.create({
   logo:{
@@ -63,5 +64,5 @@ const styles = StyleSheet.create({
   divider:{
     backgroundColor:"#FC370C",
     margin:40
-  }
+  },
 });
