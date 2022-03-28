@@ -21,8 +21,17 @@ Este proyecto está bajo la licencia Creative Commons Zero v1.0 Universal
 Que establece:
 Usted puede copiar, modificar, distribuir y realizar el trabajo, incluso con fines comerciales, todo sin pedir permiso.
 
+##Información para iniciar el proyecto correctamente.
+-Si quiere iniciar el proyecto de forma loca, debe ejecutar los siquientes comandos:
+NPM install = para instalar todos las dependencias y recursos necesarios
+NPM start = para poder iniciar el proyeto y seleccionar en que medio quiero visualizarlo 
+
+Nota: Este proyecto esta siendo desarrollado en expo dev, aqui puede visualizarlo https://snack.expo.dev/@adonaymejia/proyecto_dps441_saborcitosv
+ para que tenga un funcionamiento correcto sugirimos ejecutarlo en su dispositio movil por medio del codigoQr para que tenga una mejor experiencia con el Mapa o si desea correrlo en el emulador que brinda expo dev, tiene que ser en la versión 42.
+
 ## Enlaces de interés
 
-* [Tablero en Trello] 
-* [Diseño Mock-ups] **NOTA -- Para acceder a ver las pantallas se necesita registrarse.
+* [Tablero en Trello] -https://trello.com/b/JsKVk86Q/proyecto-fase-1-dps
+* [Diseño Mock-ups] -https://www.figma.com/file/rdkBRRrWguMpjTLdjLGftD/SaborcitoSV
+* [Video de Funcionamiento] -https://youtu.be/CU-4syBQAnU
 
