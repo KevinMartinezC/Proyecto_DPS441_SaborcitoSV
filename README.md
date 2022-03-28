@@ -21,7 +21,8 @@ Este proyecto está bajo la licencia Creative Commons Zero v1.0 Universal
 Que establece:
 Usted puede copiar, modificar, distribuir y realizar el trabajo, incluso con fines comerciales, todo sin pedir permiso.
 
-##Información para iniciar el proyecto correctamente.
+##Información para iniciar el proyecto correctamente
+
 -Si quiere iniciar el proyecto de forma loca, debe ejecutar los siquientes comandos:
 NPM install = para instalar todos las dependencias y recursos necesarios
 NPM start = para poder iniciar el proyeto y seleccionar en que medio quiero visualizarlo 
