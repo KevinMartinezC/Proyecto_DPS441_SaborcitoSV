@@ -27,8 +27,7 @@ Usted puede copiar, modificar, distribuir y realizar el trabajo, incluso con fin
 NPM install = para instalar todos las dependencias y recursos necesarios
 NPM start = para poder iniciar el proyeto y seleccionar en que medio quiero visualizarlo 
 
-Nota: Este proyecto esta siendo desarrollado en expo dev, aqui puede visualizarlo https://snack.expo.dev/@adonaymejia/proyecto_dps441_saborcitosv
- para que tenga un funcionamiento correcto sugirimos ejecutarlo en su dispositio movil por medio del codigoQr para que tenga una mejor experiencia con el Mapa o si desea correrlo en el emulador que brinda expo dev, tiene que ser en la versión 42.
+Nota: Este proyecto esta siendo desarrollado en expo dev, aqui puede visualizarlo https://snack.expo.dev/@adonaymejia/proyecto_dps441_saborcitosv_primera_fase para que tenga un funcionamiento correcto sugirimos ejecutarlo en su dispositio movil por medio del codigoQr para que tenga una mejor experiencia con el Mapa o si desea correrlo en el emulador que brinda expo dev, tiene que ser en la versión 42.
 
 ## Enlaces de interés
 
