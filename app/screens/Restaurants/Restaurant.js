@@ -5,6 +5,7 @@ import {Rating,ListItem,Icon} from "react-native-elements";
 import Loading from "../../components/Loading";
 import Carousel from "../../components/Carousel";
 import Map from "../../components/Map";
+import ListReviews from "../../components/Restaurants/ListReviews";
 import {firebaseApp} from "../../utils/firebase";
 import * as firebase from "firebase";
 import "firebase/firestore";
@@ -53,6 +54,11 @@ if(!restaurant) return <Loading isVisible={true} text="Cargando..."/>
           name = {restaurant.name}
           address={restaurant.address}
           />
+          <ListReviews
+          navigation={navigation}
+          idRestaurant={restaurant.id}
+          setRating={setRating}
+          />
         </ScrollView>
     );
 }
@@ -95,7 +101,7 @@ function RestaurantInfo(props){
             leftIcon={{
               name: item.iconName,
               type: item.iconType,
-              color:"#00a680"
+              color:"#FC370C"
             }}
             containerStyle={styles.containerListItem}
           />
