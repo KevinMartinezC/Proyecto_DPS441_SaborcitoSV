@@ -3,7 +3,7 @@ import {createNativeStackNavigator} from "@react-navigation/native-stack";
 import Restaurants from "../screens/Restaurants/Restaurants";
 import AddRestaurant from '../screens/Restaurants/AddRestaurant'
 import Restaurant from "../screens/Restaurants/Restaurant";
-
+import AddReviewRestaurants from "../screens/Restaurants/AddReviewRestaurants";
 
 const Stack = createNativeStackNavigator();
 
@@ -22,6 +22,11 @@ export default function RestaurantStack() {
             <Stack.Screen
                 name="restaurant"
                 component={Restaurant}
+            />
+            <Stack.Screen
+            name="add-review-restaurant"
+            component={AddReviewRestaurants}
+            options={{title:"Nuevo comentario"}}
             />
         </Stack.Navigator>
     );
