@@ -3,6 +3,7 @@ import {View, Text, StyleSheet, FlatList, Image} from "react-native";
 import {SearchBar,ListItem,Icon,Avatar} from "react-native-elements";
 import {FireSQL} from "firesql";
 import * as firebase from "firebase";
+import { screen } from "../utils/ScreenName";
 
 const  fireSQL = new FireSQL(firebase.firestore(), {includeId: "id"});
 
@@ -21,6 +22,7 @@ export default function Search(props){
     }
   },[search]);
 
+   
     return(
         <View>
         <SearchBar
@@ -59,15 +61,29 @@ function Restaurant(props){
   const {restaurant,navigation} = props;
   const {id,name,images} =  restaurant.item
  
+ const goToRestaurant = (idRestaurant) => {
+    navigation.navigate(screen.restaurant.tab, {
+      screen: screen.restaurant.restaurant,
+      params: {
+        id: idRestaurant,
+      },
+    });
+  };
+  
   return(
     
-    <ListItem >
+    <ListItem 
+    key={id}
+    bottomDivider
+    onPress={() => goToRestaurant (id)}
+    >
     <Avatar source={{ uri: images[0] }} rounded />
         <ListItem.Content>
             <ListItem.Title>{name}</ListItem.Title>
         </ListItem.Content>
         <Icon type="material-community" name="chevron-right" />
     </ListItem>
+
     
   );
 }

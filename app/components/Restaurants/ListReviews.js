@@ -6,6 +6,7 @@ import {firebaseApp} from "../../utils/firebase";
 import * as firebase from "firebase";
 import "firebase/storage";
 import "firebase/firestore";
+import { screen } from "../../utils/ScreenName";
 
 const db =firebase.firestore(firebaseApp);
 
@@ -32,6 +33,12 @@ export default function ListReviews(props){
       });
   }, []);
 
+
+  const goToLogin = () => {
+    navigation.navigate(screen.account.tab, {
+      screen: screen.account.login,
+    });
+  };
   return(
 
     <View>
@@ -55,12 +62,11 @@ export default function ListReviews(props){
           <View>
             <Text
               style={{textAlign:"center",color:"#FC370C", padding:20}}
-              onPress={()=> navigation.navigate("login")}
-            >Para escribir un comentario es necesario iniciar sesion{""}
+              onPress={goToLogin} >Para escribir un comentario es necesario iniciar sesión{" "}
               <Text
               style={{fontWeight:"bold"}}
               >
-                  Pulsa AQUI para iniciar sesion            
+                  Pulsa aquí para iniciar sesión            
               </Text>
             </Text>
           </View>

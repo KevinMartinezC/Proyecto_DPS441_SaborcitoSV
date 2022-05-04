@@ -1,6 +1,8 @@
 import * as React from 'react';
 import {NavigationContainer} from "@react-navigation/native";
 import {createBottomTabNavigator} from "@react-navigation/bottom-tabs";
+import { screen } from "../utils/ScreenName";
+
 import {Icon} from "react-native-elements";
 import RestaurantStack from "./RestaurantStack";
 import FavoriteStack from "./FavoriteStack";
@@ -17,27 +19,27 @@ export default function Navigation() {
             screenOptions={({route}) => ({
                 tabBarInactiveTintColor: "#646464",
                 tabBarActiveTintColor: "#FC370C",
-                tabBarIcon: ({color}) => screenOption(route,color)
+                tabBarIcon: ({color}) => screenOptions(route,color)
             })}
             >
             
-                <Tab.Screen name="restaurants-stack" 
+                <Tab.Screen name={screen.restaurant.tab} 
                 component={RestaurantStack} 
                 options={{title:"Restaurantes", headerShown: false}}/>
 
-                <Tab.Screen name="favorites-stack" 
+                <Tab.Screen name={screen.favorites.tab} 
                 component={FavoriteStack} 
                 options={{title:"Favoritos", headerShown: false}}/>
 
-                <Tab.Screen name="top-restaurants-stack" 
+                <Tab.Screen name={screen.ranking.tab} 
                 component={TopRestaurantStack} 
                 options={{title:"Top 5", headerShown: false}}/>
 
-                <Tab.Screen name="search-stack" 
+                <Tab.Screen name={screen.search.tab}
                 component={SearchStack} 
                 options={{title:"Buscador", headerShown: false}}/>
 
-                <Tab.Screen name="account-stack" 
+                <Tab.Screen name={screen.account.tab} 
                 component={AccountStack} 
                 options={{title:"Cuenta", headerShown: false}}/>    
             </Tab.Navigator>
@@ -45,32 +47,28 @@ export default function Navigation() {
     )
 }
 
-function screenOption(route,color) {
-    let iconName;
+function screenOptions(route, color, size) {
+  let iconName;
 
-    switch (route.name) {
-        case "restaurants-stack":
-            iconName = "compass-outline";
-            break;
-        
-        case "favorites-stack":
-            iconName = "heart-outline";
-            break;
+  if (route.name === screen.restaurant.tab) {
+    iconName = "compass-outline";
+  }
 
-        case "top-restaurants-stack":
-            iconName = "star-outline";
-            break;
+  if (route.name === screen.favorites.tab) {
+    iconName = "heart-outline";
+  }
 
-        case "search-stack":
-            iconName = "magnify";
-            break;
+  if (route.name === screen.ranking.tab) {
+    iconName = "star-outline";
+  }
 
-        case "account-stack":
-            iconName = "home-outline";
-            break;
-        default:
-            break;
-    }
+  if (route.name === screen.search.tab) {
+    iconName = "magnify";
+  }
+
+  if (route.name === screen.account.tab) {
+    iconName = "home-outline";
+  }
     return(
         <Icon type="material-community" name={iconName} size={22} color={color}/>
     ); 
