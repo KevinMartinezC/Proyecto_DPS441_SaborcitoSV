@@ -7,6 +7,7 @@ import Toast from "react-native-easy-toast";
 import {firebaseApp} from "../utils/firebase";
 import * as firebase from "firebase";
 import "firebase/firestore";
+import { screen } from "../utils/ScreenName";
 
 const db =firebase.firestore(firebaseApp);
 
@@ -111,6 +112,13 @@ function NotFoundRestaurants(){
 function UserNoLoggeed(props){
   const {navigation} = props;
 
+  
+  const goToLogin = () => {
+    navigation.navigate(screen.account.tab, {
+      screen: screen.account.login,
+    });
+  };
+
   return(
     <View style={{flex:1, alignItems:"center", justifyContent:"center"}}>
       <Icon type="material-community" name="alert-outline" size={50}/>
@@ -119,7 +127,7 @@ function UserNoLoggeed(props){
         title="Ir al Login"
         containerStyle={{marginTop:20, width:"80%"}}
         buttonStyle={{backgroundColor:"#FC370C"}}
-        onPress={()=> navigation.navigate("account",{screen:"login"})}
+        onPress={goToLogin}
       />
     </View>
   )
@@ -170,9 +178,18 @@ function Restaurant(props){
       })
     }) 
   };
+   const goToRestaurant = (idRestaurant) => {
+    navigation.navigate(screen.restaurant.tab, {
+      screen: screen.restaurant.restaurant,
+      params: {
+        id: idRestaurant,
+      },
+    });
+  };
+
   return(
     <View  style={styles.restaurant}>
-      <TouchableOpacity onPress={()=> navigation.navigate("restaurants",{screen:"restaurant",params:{id},})} >
+      <TouchableOpacity  onPress={() => goToRestaurant (id)} >
         <Image
           resizeMode="cover"
           style={styles.image}
