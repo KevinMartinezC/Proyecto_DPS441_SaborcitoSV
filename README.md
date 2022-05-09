@@ -32,7 +32,7 @@ Este proyecto esta siendo desarrollado en expo dev, aqui puede visualizarlo http
 
 ## Enlaces de interés 👀
 
-* [Tablero en Trello] -https://trello.com/b/JsKVk86Q/proyecto-fase-1-dps
-* [Diseño Mock-ups] -https://www.figma.com/file/rdkBRRrWguMpjTLdjLGftD/SaborcitoSV
-* [Video de Funcionamiento] -https://www.youtube.com/watch?v=99Rai2Q0-gY
+* [Tablero en Trello] -https://trello.com/b/JsKVk86Q/proyecto-fase-1-dps 📅
+* [Diseño Mock-ups] -https://www.figma.com/file/rdkBRRrWguMpjTLdjLGftD/SaborcitoSV 🎨
+* [Video de Funcionamiento] -https://www.youtube.com/watch?v=99Rai2Q0-gY 🎬
 
