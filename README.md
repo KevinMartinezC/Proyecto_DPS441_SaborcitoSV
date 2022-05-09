@@ -10,10 +10,10 @@
 * [Draw.io] https://app.diagrams.net/ - Herramienta para creación de UML.
 * [Figma] https://www.figma.com/?fuid= - Herramienta para creación de mockups.
 
-## Miembros del equipo de desarrollo DPS441 -Proyecto SaborcitoSV ✒️
+## Miembros del equipo de desarrollo DPS441 -Proyecto SaborcitoSV 💻✒️
 
-* **Kevin Adonay Martínez Cerón - Programación, diseño, lógica y manuales ** 
-* **Stanley Adonay Mejia Amaya  - Programación, diseño, lógica y manuales ** 
+* ### Kevin Adonay Martínez Cerón - Programación, diseño, lógica y manuales
+* ### Stanley Adonay Mejia Amaya  - Programación, diseño, lógica y manuales 
 
 ## Licencia 📄
 
@@ -28,7 +28,7 @@ NPM install = para instalar todos las dependencias y recursos necesarios
 NPM start = para poder iniciar el proyeto y seleccionar en que medio quiero visualizarlo 
 
 ## Nota: 👀
-Este proyecto esta siendo desarrollado en expo dev, aqui puede visualizarlo https://snack.expo.dev/@kevin_martinezdev/github.com-kevinmartinezc-proyecto_dps441_saborcitosv para que tenga un correcto funcionamiento sugirimos ejecutarlo en su dispositio movil por medio del codigoQr para que tenga una mejor experiencia con el Mapa o si desea correrlo en el emulador que brinda expo dev, tiene que ser en la versión 42.
+Este proyecto esta siendo desarrollado en expo dev, aqui puede visualizarlo 👉🏻 https://snack.expo.dev/@kevin_martinezdev/github.com-kevinmartinezc-proyecto_dps441_saborcitosv para que tenga un correcto funcionamiento sugirimos ejecutarlo en su dispositio movil por medio del codigoQr para que tenga una mejor experiencia con el Mapa o si desea correrlo en el emulador que brinda expo dev, tiene que ser en la versión 42.
 
 ## Enlaces de interés 👀
 
